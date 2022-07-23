@@ -1,0 +1,45 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jaarkalender {
+    float: left;
+    width: 248px;
+    height: 300px;
+    text-align: center;
+}
+.calendar-title {
+    color: red;
+    font-size: 15px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.calendar .wknr {
+    width: 36px;
+    font-size: 12px;
+}
+
+.calendar th, .calendar td {
+    width: 30px;
+    line-height: 24px;
+    height: 24px;
+}
+
+.calendar td.vandaag, .calendar td.vandaag:hover {
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    background: black;
+  border-radius: 5pxs;
+}
+caption {
+  color: black;
+}
